@@ -1,0 +1,19 @@
+@{
+    var todo = ViewData["todo"] as Todo;
+}
+<h1>
+    @todo?.Titulo
+</h1>
+
+<p>@todo?.Descricao</p>
+
+
+@{
+    var todo2 = ViewBag.Todo;
+}
+
+<h1>
+    @todo2?.Titulo
+</h1>
+
+<p>@todo2?.Descricao</p>
